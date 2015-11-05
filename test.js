@@ -5,7 +5,7 @@ describe('User visits Hello World page', function() {
   const browser = new Browser();
 
   before(function(done) {
-    browser.visit('http://104.197.35.96:8081/demo/', done);
+    browser.visit('http://wildfly-qa:8081/demo/', done);
   });
 
   describe('submits form', function() {
