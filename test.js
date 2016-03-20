@@ -1,3 +1,4 @@
+//
 const Browser = require('zombie');
 
 describe('User visits Hello World page', function() {
